@@ -36,6 +36,14 @@
   - [API Development](#api-development)
   - [Documentation](#documentation)
   - [Productivity](#productivity)
+  - [Code Quality & Linting](#code-quality--linting)
+  - [Monitoring & Logging](#monitoring--logging)
+  - [Mobile Development](#mobile-development)
+  - [Infrastructure & Cloud](#infrastructure--cloud)
+  - [Database Tools](#database-tools)
+  - [Performance & Optimization](#performance--optimization)
+  - [Security & Compliance](#security--compliance)
+  - [Collaboration & Communication](#collaboration--communication)
 
 ---
 
@@ -314,6 +322,101 @@
 | **httpie** | [httpie.io](https://httpie.io) | Modern, user-friendly HTTP client for CLI | Python |
 | **curlie** | [GitHub](https://github.com/rs/curlie) | The power of curl with the ease of httpie | Go |
 
+### Code Quality & Linting
+
+| Tool | Source | Description | Language |
+|------|--------|-------------|----------|
+| **ESLint** | [eslint.org](https://eslint.org) | Find and fix problems in JavaScript code | JavaScript |
+| **Prettier** | [prettier.io](https://prettier.io) | Code formatter for consistent style | JavaScript |
+| **Pylint** | [pylint.pycqa.org](https://pylint.pycqa.org) | Python code analysis tool | Python |
+| **Black** | [black.readthedocs.io](https://black.readthedocs.io) | Uncompromising Python code formatter | Python |
+| **Clippy** | [GitHub](https://github.com/rust-lang/rust-clippy) | Rust linter for common mistakes | Rust |
+| **SonarQube** | [sonarqube.org](https://www.sonarqube.org) | Code quality and security analysis platform | Multi-language |
+| **Stylelint** | [stylelint.io](https://stylelint.io) | CSS linter for consistent style | CSS |
+
+### Monitoring & Logging
+
+| Tool | Source | Description | Type |
+|------|--------|-------------|------|
+| **Prometheus** | [prometheus.io](https://prometheus.io) | Metrics collection and alerting system | Monitoring |
+| **Grafana** | [grafana.com](https://grafana.com) | Visualization and analytics platform | Monitoring |
+| **ELK Stack** | [elastic.co](https://www.elastic.co/what-is/elk-stack) | Elasticsearch, Logstash, Kibana for logging | Logging |
+| **Datadog** | [datadoghq.com](https://www.datadoghq.com) | Cloud monitoring and analytics platform | SaaS |
+| **New Relic** | [newrelic.com](https://newrelic.com) | Application performance monitoring | SaaS |
+| **Sentry** | [sentry.io](https://sentry.io) | Error tracking and performance monitoring | SaaS |
+| **LogRocket** | [logrocket.com](https://logrocket.com) | Frontend monitoring and session replay | SaaS |
+
+### Mobile Development
+
+| Tool | Source | Description | Language |
+|------|--------|-------------|----------|
+| **React Native** | [reactnative.dev](https://reactnative.dev) | Build native apps with React | JavaScript |
+| **Flutter** | [flutter.dev](https://flutter.dev) | Cross-platform mobile framework by Google | Dart |
+| **Expo** | [expo.dev](https://expo.dev) | Platform for React Native development | JavaScript |
+| **Kotlin** | [kotlinlang.org](https://kotlinlang.org) | Modern language for Android development | Kotlin |
+| **Swift** | [swift.org](https://www.swift.org) | Apple's programming language for iOS/macOS | Swift |
+| **Capacitor** | [capacitorjs.com](https://capacitorjs.com) | Build native mobile apps with web tech | JavaScript |
+| **NativeScript** | [nativescript.org](https://nativescript.org) | Build native mobile apps with JavaScript | JavaScript |
+
+### Infrastructure & Cloud
+
+| Tool | Source | Description | Type |
+|------|--------|-------------|------|
+| **Terraform** | [terraform.io](https://www.terraform.io) | Infrastructure as code for cloud resources | IaC |
+| **Kubernetes** | [kubernetes.io](https://kubernetes.io) | Container orchestration platform | Orchestration |
+| **AWS** | [aws.amazon.com](https://aws.amazon.com) | Amazon's comprehensive cloud platform | Cloud |
+| **Google Cloud** | [cloud.google.com](https://cloud.google.com) | Google's cloud computing services | Cloud |
+| **Azure** | [azure.microsoft.com](https://azure.microsoft.com) | Microsoft's cloud platform | Cloud |
+| **Ansible** | [ansible.com](https://www.ansible.com) | Infrastructure automation and configuration | IaC |
+| **Helm** | [helm.sh](https://helm.sh) | Package manager for Kubernetes | Package Manager |
+
+### Database Tools
+
+| Tool | Source | Description | Type |
+|------|--------|-------------|------|
+| **pgAdmin** | [pgadmin.org](https://www.pgadmin.org) | PostgreSQL administration and development | GUI |
+| **DBeaver** | [dbeaver.io](https://dbeaver.io) | Universal database tool | GUI |
+| **MongoDB Compass** | [mongodb.com/compass](https://www.mongodb.com/products/compass) | MongoDB GUI and IDE | GUI |
+| **Redis Commander** | [GitHub](https://github.com/joeferner/redis-commander) | Redis management tool | GUI |
+| **Adminer** | [adminer.org](https://www.adminer.org) | Single PHP file database management | Web |
+| **Liquibase** | [liquibase.org](https://www.liquibase.org) | Database change management | Tool |
+| **Flyway** | [flywaydb.org](https://flywaydb.org) | Database migration tool | Tool |
+
+### Performance & Optimization
+
+| Tool | Source | Description | Type |
+|------|--------|-------------|------|
+| **Lighthouse** | [developers.google.com/web/tools/lighthouse](https://developers.google.com/web/tools/lighthouse) | Web performance auditing tool | Web |
+| **WebPageTest** | [webpagetest.org](https://www.webpagetest.org) | Website performance testing | Web |
+| **GTmetrix** | [gtmetrix.com](https://gtmetrix.com) | Website speed and performance analysis | Web |
+| **Bundlesize** | [GitHub](https://github.com/siddharthkp/bundlesize) | Keep your bundle size in check | Tool |
+| **Webpack Bundle Analyzer** | [GitHub](https://github.com/webpack-bundle-analyzer/webpack-bundle-analyzer) | Visualize webpack bundle size | Tool |
+| **Apache JMeter** | [jmeter.apache.org](https://jmeter.apache.org) | Load testing and performance measurement | Tool |
+
+### Security & Compliance
+
+| Tool | Source | Description | Type |
+|------|--------|-------------|------|
+| **OWASP Dependency-Check** | [owasp.org](https://owasp.org/www-project-dependency-check/) | Identify vulnerable dependencies | Scanner |
+| **Snyk** | [snyk.io](https://snyk.io) | Find and fix vulnerabilities in code | SaaS |
+| **Trivy** | [aquasecurity.github.io/trivy](https://aquasecurity.github.io/trivy/) | Container and artifact vulnerability scanner | Scanner |
+| **HashiCorp Vault** | [vaultproject.io](https://www.vaultproject.io) | Secrets management and encryption | Tool |
+| **1Password** | [1password.com](https://1password.com) | Password manager for teams | SaaS |
+| **Bitwarden** | [bitwarden.com](https://bitwarden.com) | Open-source password manager | SaaS |
+| **OWASP ZAP** | [zaproxy.org](https://www.zaproxy.org) | Automated security scanning for web apps | Scanner |
+
+### Collaboration & Communication
+
+| Tool | Source | Description | Type |
+|------|--------|-------------|------|
+| **Slack** | [slack.com](https://slack.com) | Team messaging and collaboration platform | SaaS |
+| **Discord** | [discord.com](https://discord.com) | Voice, video, and text communication | SaaS |
+| **Jira** | [atlassian.com/software/jira](https://www.atlassian.com/software/jira) | Issue tracking and project management | SaaS |
+| **Linear** | [linear.app](https://linear.app) | Modern issue tracking for software teams | SaaS |
+| **Trello** | [trello.com](https://trello.com) | Visual project management tool | SaaS |
+| **Miro** | [miro.com](https://miro.com) | Online whiteboard for collaboration | SaaS |
+| **Loom** | [loom.com](https://www.loom.com) | Video messaging for asynchronous communication | SaaS |
+
 ---
 
 ## 🎓 Learning Resources
@@ -350,7 +453,3 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) before
 MIT License — see [LICENSE](LICENSE) for details.
 
 ---
-
-<div align="center">
-  <sub>Built with ❤️ by <a href="https://github.com/rushdv">rushdv</a></sub>
-</div>
